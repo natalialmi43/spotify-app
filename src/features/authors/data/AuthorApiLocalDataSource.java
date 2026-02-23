@@ -4,7 +4,7 @@ import features.authors.domain.Author;
 
 import java.util.ArrayList;
 
-public class AutorApiLocalDataSource {
+public class AuthorApiLocalDataSource {
 
     public ArrayList <Author> authorsApiStorage = new ArrayList<>();
 
