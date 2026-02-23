@@ -4,12 +4,12 @@ import features.authors.domain.Author;
 
 import java.util.ArrayList;
 
-public class AutorMemLocalDataSource {
+public class AuthorMemLocalDataSource {
 
     // Se crea e inicializa un array
     public ArrayList <Author> authorsMemStorage = new ArrayList<>();
 
-    public AutorMemLocalDataSource (){
+    public AuthorMemLocalDataSource(){
         initData();
     }
 
