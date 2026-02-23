@@ -13,7 +13,7 @@ public class AutorMemLocalDataSource {
         initData();
     }
 
-    // Se crean autores
+    // Se crean autores y se guardan en precarga de datos simulados.
     private void initData (){
 
         Author author1 = new Author("1", "autor1", "2000", "Española");
