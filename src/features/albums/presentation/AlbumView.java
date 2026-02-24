@@ -9,14 +9,17 @@ import java.util.ArrayList;
 
 public class AlbumView {
 
+    private static GetAlbumUseCase getAlbumsUseCase;
+
     public  static void printAlbums(){
         GetAlbumUseCase albumUseCase = new GetAlbumUseCase(
           new AlbumDataRepository(AlbumMemLocalDataSource.newInstance())
         );
-/*
+
         ArrayList<Album> albums = getAlbumsUseCase.execute();
         System.out.println(albums);
-
- */
+        
     }
+
+
 }
