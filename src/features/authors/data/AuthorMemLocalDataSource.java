@@ -6,6 +6,8 @@ import java.util.ArrayList;
 
 public class AuthorMemLocalDataSource {
 
+    private static AuthorMemLocalDataSource instance = null;
+
     // Se crea e inicializa un array
     public ArrayList <Author> authorsMemStorage = new ArrayList<>();
 
@@ -31,5 +33,12 @@ public class AuthorMemLocalDataSource {
     // Se le pasa como parametro un autor y lo guarda en el array anterior
     public void save (Author author){
         authorsMemStorage.add(author);
+    }
+
+    public static AuthorMemLocalDataSource newInstance (){
+        if (instance == null){
+            instance = new AuthorMemLocalDataSource();
+        }
+        return instance;
     }
 }
