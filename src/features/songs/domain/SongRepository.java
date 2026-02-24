@@ -6,4 +6,6 @@ public interface SongRepository {
 
     public ArrayList <Song> getSongs();
 
+    void saveSong (Song song);
+
 }
