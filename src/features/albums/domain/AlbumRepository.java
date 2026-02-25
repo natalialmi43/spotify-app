@@ -6,4 +6,6 @@ public interface AlbumRepository {
     ArrayList <Album> getAlbums();
 
     void saveAlbum (Album album);
+
+    void deleteSong (String songId);
 }
