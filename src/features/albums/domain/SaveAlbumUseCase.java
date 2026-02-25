@@ -1,10 +1,10 @@
 package features.albums.domain;
 
-public class SaveUseCase {
+public class SaveAlbumUseCase {
 
     private AlbumRepository albumRepository;
 
-    public SaveUseCase(AlbumRepository albumRepository) {
+    public SaveAlbumUseCase(AlbumRepository albumRepository) {
         this.albumRepository = albumRepository;
     }
 
