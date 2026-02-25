@@ -7,5 +7,5 @@ public interface AlbumRepository {
 
     void saveAlbum (Album album);
 
-    void deleteSong (String songId);
+    void deleteAlbum (String songId);
 }
