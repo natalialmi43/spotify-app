@@ -22,4 +22,14 @@ public class SongDataBDRepository implements SongRepository {
 
         return null;
     }
+
+    @Override
+    public void saveSong(Song song) {
+
+    }
+
+    @Override
+    public void deleteSong(String idSong) {
+
+    }
 }

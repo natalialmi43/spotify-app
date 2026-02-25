@@ -8,4 +8,6 @@ public interface SongRepository {
 
     void saveSong (Song song);
 
+    void deleteSong (String idSong);
+
 }

@@ -9,4 +9,6 @@ public interface AuthorRepository {
     public ArrayList <Author> getAuthors();
 
     void saveAuthor (Author author);
+
+    void deleteAuthor (String idAuthor);
 }
